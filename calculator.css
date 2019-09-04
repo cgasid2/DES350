@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#myCalculator{
+	background-color:#000000;
+	padding:20px;
+}
+
+#display{
+	margin:0px;
+	padding:0px;
+	width:319px;
+	text-align:right;
+	font-size:40px;
+	background-color:#000000;
+	
+}
+
+input{
+	outline:0;
+	border:none;
+	color: #FFFFFF;
+	background-color:#186E87;
+	width: 75px;
+	height: 80px;
+	font-size: 25px;
+	padding: 2px;
+	margin-top: 5px;
+	margin-right:2px;
+	border-radius: 15px;
+
+	}
+
+input:hover{
+		background-color:#6FA3B6;
+	}
+
+#clear{
+	color:#FFFFFF;
+	background-color:#25CD23;
+	width:319px;
+	margin-top:6px;
+	
+}
+	
+#add{
+	background-color:#050E50;
+}
+
+#subtract{
+	background-color:#050E50;
+}
+	
+
+#multiply{
+	background-color:#050E50;
+}
+
+#divide{
+	background-color:#050E50;
+}
+
+
+#decimal{
+	background-color:#050E50;
+}
+
+#equals{
+	background-color:#0ECBD1;
+}
+
+form{
+	display:grid;
+	justify-content:center;
+	
+}	
+
+
+
+
+
