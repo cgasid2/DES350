@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#myCalculator{
+	background-color:#F7EBD9;
+	padding:40px;
+	border-radius:40px;
+}
+
+#display{
+	padding-top:10px;
+	width:390px;
+	height:100px;
+	text-align:left;
+	font-size:100px;
+	color:#450203;
+	background-color:#F7EBD9;
+	border-radius:10px;
+}
+
+input{
+	outline:0;
+	border:none;
+	color: #F7EBD9;
+	background-color:#000000;
+	width: 80px;
+	height: 80px;
+	font-size: 35px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right:10px;
+	margin-bottom:20px;
+	margin-left:10px;
+	border-radius: 40px;
+	font-weight:bold;
+
+	}
+
+input:hover{
+	color:#000000;
+	background-color:#F7EBD9;
+	}
+
+#clear{
+	color:#FFFFFF;
+	background-color:#C52222;
+	width: 80px;
+	height: 80px;
+	margin-top:6px;
+	margin-left:250px;
+	float:right;
+	font-weight:bold;
+	font-size:45px;
+}
+	
+#clear:hover{
+	color:#76BAD3;
+	background-color:#F7EBD9;
+}
+
+#add{
+	background-color:#C52222;
+	color:#76BAD3;
+}
+
+#add:hover{
+	color:#C52222;
+	background-color:#F7EBD9;
+}
+
+#subtract{
+	background-color:#C52222;
+	color:#76BAD3;
+}
+	
+#subtract:hover{
+	color:#C52222;
+	background-color:#F7EBD9;
+}
+
+#multiply{
+	background-color:#C52222;
+	color:#76BAD3;
+}
+
+#multiply:hover{
+	color:#C52222;
+	background-color:#F7EBD9;
+}
+
+#divide{
+	background-color:#C52222;
+	color:#76BAD3;
+}
+
+#divide:hover{
+	color:#C52222;
+	background-color:#F7EBD9;
+}
+
+#decimal{
+	background-color:#000000;
+}
+
+#decimal:hover{
+	color:#000000;
+	background-color:#F7EBD9;
+}
+
+#equals{
+	background-color:#C52222;
+	color:#76BAD3;
+}
+
+#equals:hover{
+	color:#C52222;
+	background-color:#F7EBD9;
+}
+
+.operator {
+	font-weight:bold;
+}
+
+form{
+	display:grid;
+	justify-content:center;
+}	
+
+h1{
+	font-size:13px;
+	font-weight:600;
+	padding-top:40px;
+	padding-left:180px;
+	color:#450203;
+}
