@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin-left:80px;
+	margin-right:800px;
+	padding:20px;
+	font-siz:12px;
+	line-height:23px;
+}
+
+.ruleline{
+	height:1px;
+	background-color:black;
+	width:100%;
+	margin-top:17px;
+}
+
+h1{
+	margin-bottom:50px;
+	font-size:20px;
+	text-align:right;
+}
+
+h2{
+	margin-bottom:50px;
+	font-size:52px;
+
+	
+}
+
+.one{
+	font-size:30px;
+	border-top:1px;
+}
+
+.two{
+	font-size:30px;
+}
+
+.three{
+	font-size:30px;
+}
+
+.four{
+	font-size:30px;
+}
+
+.five{
+	font-size:30px;
+}
+
+.six{
+	font-size:30px;
+}
+
+.seven{
+	font-size:30px;
+}
+
+.eight{
+	font-size:30px;
+}
+
+.nine{
+	font-size:30px;
+}
+
+.ten{
+	font-size:30px;
+}
+
+
