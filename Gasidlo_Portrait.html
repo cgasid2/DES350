@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gasidlo_Portrait</title>
+</head>
+
+<style>
+	body{
+		background-color:#64BDD2;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:30%;}
+
+	
+	.leftear{
+		width:100px;
+      	height:145px;
+      	background:navajowhite;
+      	border-radius:60% 60% 80% 170%;
+		position: absolute;
+		margin-top:280px;
+		margin-left:10px;
+	
+		animation-name: leftear;
+		animation-duration:5s; /* still needs figuring out*/
+		animation-delay:2s;
+		animation-iteration-count:infinite;
+	}
+	
+	@-webkit-keyframes leftear {
+		0% 	{margin-top:280px;}
+		25%	{margin-top:290px;}
+		
+	}	
+	
+	.rightear{
+		width:100px;
+      	height:145px;
+      	background:navajowhite;
+      	border-radius:60% 60% 170% 80%;
+		position: absolute;
+		margin-top:280px;
+		margin-left:409px;
+	
+		animation-name: rightear;
+		animation-duration:5s;
+		animation-delay:2s;
+		animation-iteration-count:infinite;
+	}
+	
+	@-webkit-keyframes rightear {
+		0% 	{margin-top:280px;}
+		25%	{margin-top:301px;}
+	}
+	
+	
+	.backhair{
+		margin-top:65px;
+		margin-left:27px;
+		width:465px;
+      	height:495px;
+      	border-radius: 60% 60% 50% 50% / 60% 60% 50% 50%;
+     	background-color:#180D01;}
+	
+	.face{
+      	width: 420px;
+      	height: 550px;
+     	background-color:navajowhite;
+     	border-radius: 60% 60% 60% 60% / 60% 60% 70% 70%;
+		position: absolute;
+		margin-left:50px;
+		margin-top:60px}
+	
+	.chin1{ 
+		position:absolute;
+		width: 45px;
+      	height: 20px;
+		margin-left:238px;
+		margin-top:48px;
+      	background: black;
+      	border-radius: 100px / 50px;}
+	
+	.chin2{ 
+		position:absolute;
+		width: 80px;
+     	height: 50px;
+      	background: navajowhite;
+      	border-radius: 50%;
+		margin-left:220.5px;
+		margin-top:50px;}
+	
+	.lips1{
+		position:absolute;
+		display: block;
+      	width: 150px;
+      	height: 60px;
+      	background-color:lightpink;
+      	border-radius: 40% 40% 70% 70% / 60% 60% 70% 70%;
+		margin-left:186px;
+		margin-top:-40px;}
+	
+	.lips2{
+		position:absolute;
+		width:190px;
+      	height:32px;
+      	background:navajowhite;
+		margin-left:169px;
+		margin-top:-40px;
+	}
+	
+	.nose1{
+		position:absolute;
+		width: 70px;
+      	height: 30px;
+		margin-left:225px;
+		margin-top:-90px;
+     	background: black;
+      	border-radius: 100px / 50px;}
+	
+	.nose2{
+		position:absolute;
+		width: 68px;
+      	height: 30px;
+		margin-left:226px;
+		margin-top:-95px;
+     	background:navajowhite;
+      	border-radius: 100px / 50px;}
+	
+	.firstnostril{
+		position:absolute;
+		width: 20px;
+      	height: 10px;
+		margin-left:230px;
+		margin-top:-64px;
+      	background: navajowhite;
+      	border-radius: 50%}
+	
+	.secondnostril{
+		position:absolute;
+		width: 20px;
+      	height: 10px;
+		margin-left:270px;
+		margin-top:-64px;
+      	background: navajowhite;
+      	border-radius: 50%}
+	
+	.middlenose{
+		position:absolute;
+		width: 20px;
+      	height: 7px;
+		margin-left:250px;
+		margin-top:-64px;
+      	background: black;
+      	border-radius: 50%}
+	
+	.leftside{
+		position:absolute;
+		width: 190px;
+      	height: 122px;
+		margin-top:-235px;
+		margin-left:50px;
+      	background: black;
+     	border-radius: 40% 35% 50% 40%;}
+		
+	.rightside{
+		position:absolute;
+		width: 190px;
+      	height: 122px;
+		margin-top:-235px;
+		margin-left:280px;
+      	background: black;
+		border-radius: 35% 40% 40% 50%;}
+	
+	.leftsidepoint{
+		position:absolute;
+		width: 99px;
+      	height: 46px;
+		margin-left:37px;
+		margin-top:-235px;
+      	background:black;
+		border-radius: 30% 20% 40% 10% }
+	
+	.underleftsidepoint{
+		position:absolute;
+		width: 23px;
+      	height: 20px;
+		margin-top:-195px;
+		margin-left:27px;
+      	background: navajowhite;
+      	border-radius: 100px / 50px;}
+	
+	.leftcircle1{
+		position:absolute;
+		width:5px;
+      	height:5px;
+		margin-top:-219px;
+		margin-left:43px;
+      	background: white;
+     	border-radius: 50%}
+	
+	.leftcircle2{
+		position:absolute;
+		width:5px;
+      	height:5px;
+		margin-top:-207px;
+		margin-left:43px;
+      	background: white;
+     	border-radius: 50%}
+	
+	.rightsidepoint{
+		position:absolute;
+		width: 99px;
+      	height: 46px;
+		margin-left:384px;
+		margin-top:-235px;
+      	background:black;
+		border-radius: 20% 30% 10% 40%}
+	
+	.underrightsidepoint{
+		position:absolute;
+		width: 23px;
+      	height: 20px;
+		margin-top:-195px;
+		margin-left:470px;
+      	background: navajowhite;
+      	border-radius: 100px / 50px;}
+	
+	.rightcircle1{
+		position:absolute;
+		width:5px;
+      	height:5px;
+		margin-top:-219px;
+		margin-left:470px;
+      	background: white;
+     	border-radius: 50%}
+	
+	.rightcircle2{
+		position:absolute;
+		width:5px;
+      	height:5px;
+		margin-top:-207px;
+		margin-left:470px;
+      	background: white;
+     	border-radius: 50%}
+	
+	.middleglass{
+		position:absolute;
+		width: 260px;
+      	height: 50px;
+		margin-top:-230px;
+		margin-left:130px;
+     	background: black;
+      	border-radius: 190px / 50px;}
+	
+	.ovalglass{
+		position:absolute;
+		width: 115px;
+      	height: 50px;
+		margin-top:-269px;
+		margin-left:203px;
+     	background: navajowhite;
+      	border-radius: 190px / 50px;}
+	
+	.overglass{
+		position:absolute;
+		width: 130px;
+      	height: 70px;
+		margin-top:-400px;
+		margin-left:190px;
+      	background:navajowhite;
+      	border-radius: 55px / 20px;}
+	
+	.underglass{
+		position:absolute;
+		width: 44px;
+      	height: 76px;
+		margin-left:238px;
+		margin-top:-199px;
+     	background:navajowhite;
+      	border-radius: 40px / 50px;}
+	
+	.leftglass{
+		position:absolute;
+      	width: 160px;
+      	height: 100px;
+		margin-top:-225px;
+		margin-left:62px;
+      	background-color:lightcyan;
+      	border-radius: 28% 24% 39% 30%;}
+	
+	.rightglass{
+		position:absolute;
+      	width: 160px;
+      	height: 100px;
+		margin-top:-225px;
+		margin-left:298px;
+      	background-color:lightcyan;
+      	border-radius: 24% 28% 30% 39%;}
+	
+	.lefteye{
+		position:absolute;
+		width:40px;
+      	height:40px;
+		margin-top:-210px;
+		margin-left:125px;
+      	background: black;
+      	border-radius:50%;
+	}
+	
+	.lefteyecover{
+		position:absolute;
+		width:40px;
+      	height:40px;
+		margin-top:-200px;
+		margin-left:125px;
+      	background:lightcyan;
+      	border-radius:50%;
+		
+		animation-name: leftcover;
+		animation-duration:6s;
+		animation-delay:2s;
+		animation-iteration-count:infinite;	
+	}
+	
+		@-webkit-keyframes leftcover {
+		0% 	{margin-top:-165px;}
+		
+		10% {margin-top:-165px;}
+		
+		50% {margin-top:-200px;}
+		
+		100%{margin-top:-164px;}
+	}	
+	
+	.righteye{
+		position:absolute;
+		width:40px;
+      	height:40px;
+		margin-top:-210px;
+		margin-left:350px;
+      	background: black;
+		border-radius:50%;}
+	
+	.righteyecover{
+		position:absolute;
+		width:40px;
+      	height:40px;
+		margin-top:-210px;
+		margin-left:350px;
+      	background:lightcyan;
+      	border-radius:50%;
+		
+		animation-name: rightcover;
+		animation-duration:6s;
+		animation-delay:2s;
+		animation-iteration-count:infinite;
+		
+	}
+	
+		@-webkit-keyframes rightcover {
+		0% 	{margin-top:-165px;}
+		
+		10% {margin-top:-165px;}
+
+		50% {margin-top:-200px;}
+		
+		100%{margin-top:-164px;}	
+	}
+	
+	.hair1{
+		position:absolute;
+      	width:100px;
+     	height: 140px;
+		margin-top:-480px;
+		margin-left:210px;
+     	background-color:#251701;
+      	border-radius:50% 50% 50% 50%;}
+	
+	.hair2{
+		position:absolute;
+      	width:260px;
+     	height: 130px;
+		margin-top:-490px;
+		margin-left:153px;
+     	background-color:#251701;
+      	border-radius:100% 150% 150% 100%/90% 160% 5% 100%;}
+	
+	.hair3{
+		position:absolute;
+      	width:122px;
+     	height:31px;
+		margin-top:-370px;
+		margin-left:293px;
+		background-color: navajowhite;
+		border-radius:61% 61% 81% 60%;}
+	
+	.hair4{
+		position:absolute;
+      	width:100px;
+     	height:50px;
+		margin-top:-381px;
+		margin-left:125px;
+		background-color:navajowhite;
+		border-radius:70% 70% 70% 70%;}
+	
+	.hair5{
+		position:absolute;
+      	width:98px;
+     	height:50px;
+		margin-top:-429px;
+		margin-left:119px;
+		background-color:#251701;
+		border-radius:200% 70% 70% 70%;}
+	
+	.hair6{
+		position:absolute;
+      	width:40px;
+     	height:55px;
+		margin-top:-434px;
+		margin-left:110px;
+		background-color:#251701;
+		border-radius:60% 70% 40% 70%;}
+	
+	.hair7{
+		position:absolute;
+      	width:65px;
+     	height:30px;
+		margin-top:-450px;
+		margin-left:119px;
+		background-color:#180D01;
+		border-radius:100% 20% 195% 90%;}
+	
+	.lefteyebraw{
+		position:absolute;
+		width: 138px;
+      	height: 70px;
+		margin-top:-280px;
+		margin-left:80px;
+      	background: #180D01;
+      	border-radius:50% 40% 40% 80% / 50% 40% 90% 80%;}
+	
+	.lefteyebraw2{
+		position:absolute;
+		width: 132px;
+      	height: 60px;
+		margin-top:-260px;
+		margin-left:83px;
+      	background: navajowhite;
+      	border-radius:60% 80% 40% 80% / 50% 40% 75% 80%;}
+	
+	.righteyebraw{
+		position:absolute;
+		width: 138px;
+      	height: 70px;
+		margin-top:-280px;
+		margin-left:310px;
+      	background: #180D01;
+      	border-radius:40% 50% 80% 40% / 40% 50% 80% 90%;}
+	
+	.righteyebraw2{
+		position:absolute;
+		width: 132px;
+      	height: 60px;
+		margin-top:-260px;
+		margin-left:311px;
+      	background: navajowhite;
+      	border-radius:80% 60% 80% 40% / 40% 50% 80% 75%;}
+	
+	
+	</style>	
+	
+<body>
+	
+	<div class="leftear"></div>
+	<div class="rightear"></div>
+	
+	<div class="face"></div>
+	
+	<div class="backhair"></div>
+	
+	<div class="chin1"></div>
+	<div class="chin2"></div>
+	
+	<div class="lips1"></div>
+	<div class="lips2"></div>
+	
+	<div class="nose1"></div>
+	<div class="nose2"></div>
+	<div class="firstnostril"></div>
+	<div class="secondnostril"></div>
+	
+	<div class="middleglass"></div>
+	<div class="ovalglass"></div>
+	
+	<div class="lefteyebraw"></div>
+	<div class="righteyebraw"></div>
+	<div class="righteyebraw2"></div>
+	<div class="lefteyebraw2"></div>
+	
+	
+	
+	<div class="leftsidepoint"></div>
+	<div class="rightsidepoint"></div>
+	
+	
+	<div class="leftside"></div>
+	<div class="rightside"></div>
+	
+	<div class="middlenose"></div>
+	
+	<div class="underleftsidepoint"></div>
+	<div class="leftcircle1"></div>
+	<div class="leftcircle2"></div>
+	
+	<div class="underrightsidepoint"></div>
+	<div class="rightcircle1"></div>
+	<div class="rightcircle2"></div>
+	
+	<div class="overglass"></div>
+	
+	
+	<div class="underglass"></div>
+	<div class="leftglass"></div>
+	<div class="rightglass"></div>
+	<div class="lefteye"></div>
+	<div class="lefteyecover"></div>
+	<div class="righteye"></div>
+	<div class="righteyecover"></div>
+	<div class="lefteyebrow"></div>
+	<div class="ovalleftbrow"></div>
+	<div class="hair1"></div>
+	<div class="hair2"></div>
+	<div class="hair3"></div>
+	<div class="hair4"></div>
+	<div class="hair5"></div>
+	<div class="hair6"></div>
+	<div class="hair7"></div>
+	
+	
+
+	
+	
+	
+</body>
+</html>
