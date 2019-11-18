@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Park Web</title>
+	
+<style>
+	
+	body{
+		background-color:#CEA973;
+		margin-left:10%;
+		margin-top:5%;}
+	
+	.clouds{
+		position:absolute;
+		left:0%;
+		top:0%;
+		width:100%;}
+	
+	.valley{
+		position:absolute;
+		left:0%;
+		top:70%;
+		width:100%;}
+	
+	.sun{
+		position:absolute;
+		left:50%;
+		top:40%;
+		width:5%;}
+	
+	.mountain1{
+		position:absolute;
+		left:51%;
+		top:86%;
+		width:15.6%;}
+	
+	.mountain2{
+		position:absolute;
+		left:36.3%;
+		top:92.8%;
+		width:21.4%;}
+	
+	.mountain3{
+		position:absolute;
+		left:29.4%;
+		top:93.5%;
+		width:14.6%;}
+	
+	.mountain4{
+		position:absolute;
+		left:9.2%;
+		top:76.5%;
+		width:13%;}
+	
+	
+	
+</style>	
+	
+	
+</head>
+
+<body>
+<div class="clouds" data-rellax-speed="2"><img src="header layers/SVG/clouds.svg" alt="clouds"></div>		
+
+<div class="mountain3" data-relax-speed="5"><img src="header layers/SVG/mountain3.svg" alt="mountain3"></div>	
+	
+<div class="mountain2" data-relax-speed="3"><img src="header layers/SVG/mountain2.svg" alt="mountain2"></div>
+	
+<div class="mountain1" data-relax-speed="6"><img src="header layers/SVG/mountain1.svg" alt="mountain1"></div>
+
+<div class="mountain4" data-relax-speed="10"><img src="header layers/SVG/mountain4.svg" alt="mountain4"></div>
+	
+<div class="valley" data-relax-speed="9"><img src="header layers/SVG/valley.svg" alt="valley"></div>
+
+<div class="sun" data-relax-speed="3"><img src="header layers/SVG/sun.svg" alt="sun"></div>
+	
+
+<!-- javascript -->
+    <script type="text/javascript" src="rellax.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>	
+
+</body>
+</html>
