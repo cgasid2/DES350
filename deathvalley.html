@@ -1,0 +1,561 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Death Valley</title>
+</head>
+	
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700&display=swap" rel="stylesheet">	
+	
+<style>
+	
+	body{
+		background-color:#3C2415;
+		margin-left:10%;
+		margin-top:5%;
+		font-family:"Oswald";}
+	
+		.clouds{
+			position:absolute;
+			left:0%;
+			top:0%;
+			width:100%;}
+	
+		.valley{
+			position:absolute;
+			left:0%;
+			top:70%;
+			width:100%;}
+	
+		.sun{
+			position:absolute;
+			left:43%;
+			top:44%;
+			width:8%;}
+	
+		.mountain1{
+			position:absolute;
+			left:51%;
+			top:86%;
+			width:15.6%;}
+	
+		.mountain2{
+			position:absolute;
+			left:36.3%;
+			top:92.8%;
+			width:21.4%;}
+	
+		.mountain3{
+			position:absolute;
+			left:29.4%;
+			top:93.5%;
+			width:14.6%;}
+	
+		.mountain4{
+			position:absolute;
+			left:9.6%;
+			top:78%;
+			width:17%;}
+	
+		.cracks{
+			position:absolute;
+			left:0%;
+			top:103%;
+			width:100%;}
+	
+		.visit{
+			position:absolute;
+			left:10%;
+			top:10%;
+			font-size:170px;}
+	
+		.death{
+			position:absolute;
+			left:10%;
+			top:37%;
+			font-size:193px;
+			font-weight:700;}
+	
+		.state{
+			position:absolute;
+			left:70%;
+			top:46.8%;
+			font-size:60px;
+			font-weight:700;}
+	
+		.park{
+			position:absolute;
+			left:10%;
+			top:62%;
+			font-size:110px;
+			font-weight:400;}
+
+	h1{
+		position:absolute;
+		width:20%;
+		font-size:40px;
+		margin-top:110%;
+		margin-left:30.6%;
+		font-weight:400;
+		color:white;
+		line-height:2;}
+	
+	h2{
+		position:absolute;
+		width:20%;
+		font-size:25px;
+		margin-top:152%;
+		left:75%;
+		font-weight:400;
+		color:white;
+		line-height:2;}
+	
+	h3{
+		position:absolute;
+		width:20%;
+		font-size:25px;
+		margin-top:200%;
+		font-weight:400;
+		color:white;
+		line-height:2;}
+	
+	
+	h4{
+		position:absolute;
+		width:20%;
+		font-size:25px;
+		margin-top:240.6%;
+		left:75%;
+		font-weight:400;
+		color:white;
+		line-height:2;}
+	
+	
+	.LL{
+		font-size:135px;
+		position:absolute;
+		width:41%;
+		margin-top:150%;
+		line-height:1.1;
+		font-weight:700;}
+	
+	.Latitude{
+			font-size:35px;
+			position:absolute;
+			width:30%;
+			margin-top:172%;
+			margin-left:21.5%;
+			line-height:1.1;
+			font-weight:700;}
+
+	
+	.Mileage{
+		font-size:135px;
+		position:absolute;
+		width:30%;
+		margin-top:199.4%;
+		left:62.4%;
+		line-height:1.1;
+		font-weight:700;}
+	
+		.Total{
+			font-size:35px;
+			position:absolute;
+			width:20%;
+			margin-left:60.1%;
+			margin-top:209.5%;
+			line-height:1.1;
+			font-weight:700;}
+	
+	
+	
+	.Date{
+		font-size:135px;
+		position:absolute;
+		width:50%;
+		margin-top:240%;
+		line-height:1.1;
+		font-weight:700;}
+	
+		.Established{
+			font-size:35px;
+			position:absolute;
+			width:30%;
+			margin-top:257.8%;
+			margin-left:21.5%;
+			line-height:1.1;
+			font-weight:700;}		
+	
+	
+	.Activities{
+		font-size:135px;
+		position:absolute;
+		width:30%;
+		margin-top:292.4%;
+		line-height:1.1;
+		font-weight:700;
+		color:white;}
+	
+	
+	.Scenedriving{
+		position:absolute;
+		width:20%;
+		font-size:30px;
+		margin-top:312.7%;
+		left:75%;
+		font-weight:700;
+		color:white;}
+	
+			.tooltiptext1{
+				visibility:hidden;
+  				width: 160%;
+  				background-color:#D8B392;
+  				color: #fff;
+				font-size:25px;
+				font-weight:400;
+  				text-align: center;
+  				border-radius: 20px;
+  				padding: 10px 0;
+				left:-80%;
+  				position:absolute;
+  				z-index: 1;}
+	
+			.Scenedriving:hover{color:darkgray;}
+			.Scenedriving:hover .tooltiptext1 {
+  				visibility: visible;
+				left:-189%;
+				top:-120%;}
+	
+			.starwars{
+				position:absolute;
+				left:10%;
+				margin-top:305%;
+				width:20%;}
+	
+	
+	.Biking{
+		position:absolute;
+		width:21%;
+		font-size:30px;
+		margin-top:338%;
+		left:75%;
+		font-weight:700;
+		color:white;}
+	
+			.tooltiptext2{
+				visibility:hidden;
+  				width: 160%;
+  				background-color:#F9AE42;
+  				color: #fff;
+				font-size:25px;
+				font-weight:400;
+  				text-align: center;
+  				border-radius: 20px;
+  				padding: 10px 0;
+				left:-80%;
+  				position:absolute;
+  				z-index: 1;}
+	
+			.Biking:hover{color:darkgray;}
+			.Biking:hover .tooltiptext2 {
+  				visibility: visible;
+				left:-180%;
+				top:-40%;}
+	
+			.biking{
+				position:absolute;
+				left:10%;
+				margin-top:330%;
+				width:20%;}
+	
+	
+	.Tour{
+		position:absolute;
+		width:20%;
+		font-size:30px;
+		margin-top:364%;
+		left:75%;
+		font-weight:700;
+		color:white;}
+	
+			.tooltiptext3{
+				visibility:hidden;
+  				width: 160%;
+  				background-color:#795A46;
+  				color: #fff;
+				font-size:25px;
+				font-weight:400;
+  				text-align: center;
+  				border-radius: 20px;
+  				padding: 10px 10px;
+				left:-80%;
+  				position:absolute;
+  				z-index: 1;}
+	
+			.Tour:hover{color:darkgray;}
+			.Tour:hover .tooltiptext3 {
+  				visibility: visible;
+				left:-190%;
+				top:-90%;}
+	
+			.castle{
+				position:absolute;
+				left:10%;
+				margin-top:355%;
+				width:20%;}
+	
+	.Birdwatching{
+		position:absolute;
+		width:20%;
+		font-size:30px;
+		margin-top:387.9%;
+		left:75%;
+		font-weight:700;
+		color:white;}
+	
+			.tooltiptext4{
+				visibility:hidden;
+  				width: 160%;
+  				background-color:#7F95A4;
+  				color: #fff;
+				font-size:25px;
+				font-weight:400;
+  				text-align: center;
+  				border-radius: 20px;
+  				padding: 10px 0;
+				left:-80%;
+  				position:absolute;
+  				z-index: 1;}
+	
+			.Birdwatching:hover{color:darkgray;}
+			.Birdwatching:hover .tooltiptext4 {
+  				visibility: visible;
+				left:-188%;
+				top:-150%;}
+	
+			.birdwatching{
+				position:absolute;
+				left:10%;
+				margin-top:380%;
+				width:20%;}
+	
+	.Backpacking{
+		position:absolute;
+		width:20%;
+		font-size:30px;
+		margin-top:413.5%;
+		left:75%;
+		font-weight:700;
+		color:white;}
+	
+			.tooltiptext5{
+				visibility:hidden;
+  				width: 160%;
+  				background-color:#42312D;
+  				color: #fff;
+				font-size:25px;
+				font-weight:400;
+  				text-align: center;
+  				border-radius: 20px;
+  				padding: 10px 10px;
+				left:-80%;
+  				position:absolute;
+  				z-index: 1;}
+	
+			.Backpacking:hover{color:darkgray;}
+			.Backpacking:hover .tooltiptext5 {
+  				visibility: visible;
+				left:-188%;
+				top:-220%;}
+	
+			.backpacking{
+				position:absolute;
+				left:10%;
+				margin-top:405%;
+				width:20%;}
+	
+	.Check{
+		font-size:70px;
+		position:absolute;
+		text-align: center;
+		margin-top:450%;
+		line-height:1.1;
+		font-weight:400;}
+	
+	.leftcolumn{
+		display:inline-block;
+		float:left;
+		width:20%;
+		margin-top:460%;
+		padding-right:2%;
+		overflow:hidden;
+	position: absolute;}
+	
+	.midcolumn{
+		display:inline-block;
+		float:left;
+		width:20%;
+		margin-top:460%;
+		padding-right:2%;
+		margin-left: 30%;
+	position: absolute;}
+	
+	.rightcolumn{
+		display:inline-block;
+		float:left;
+		width:20%;
+		margin-top:460%;
+		margin-left:60%;
+		padding-right:2%;
+	position: absolute;}
+	
+	.one{
+		position:absolute;
+		font-size:25px;
+		margin-top:446%;
+		color:black;
+		text-decoration:none;
+		font-weight:700;}
+			a:hover{color:white;}
+	}	
+	
+	
+</style>	
+	
+
+
+<body>
+<div class="clouds rellax" data-rellax-speed="4"><img src="header layers/SVG/clouds.svg" alt="clouds"></div>		
+
+<div class="mountain3 rellax" data-relax-speed="5"><img src="header layers/SVG/mountain3.svg" alt="mountain3"></div>	
+	
+<div class="mountain2 rellax" data-relax-speed="8"><img src="header layers/SVG/mountain2.svg" alt="mountain2"></div>
+	
+<div class="mountain1 rellax" data-relax-speed="9"><img src="header layers/SVG/mountain1.svg" alt="mountain1"></div>
+	
+<div class="park">National Park</div>
+	
+<div class="mountain4 rellax" data-relax-speed="1"><img src="header layers/SVG/mountain4.svg" alt="mountain4"></div>
+	
+<div class="valley rellax" data-relax-speed="5"><img src="header layers/SVG/valley.svg" alt="valley"></div>
+
+<div class="sun rellax" data-relax-speed="2"><img src="header layers/SVG/sun.svg" alt="sun"></div>
+	
+<div class="cracks rellax" data-relax-speed="9"><img src="header layers/SVG/cracks.svg" alt="cracks"></div>
+
+<div class="visit">Visit</div>
+<div class="death">Death Valley</div>
+<div class="state">CA, NV</div>	
+	
+<h1> Death Valley is the hottest, driest and lowest national park.</h1>
+	 
+<h2>It is a land of extremes yet<br> each has its own contrast.</h2>
+	
+<h3>From peaks frosted with winter<br> snow to rare rainstorms<br> bringing fields of wildflowers,<br> from tiny fish to refuge<br> for wildlife and humans. </h3>
+	
+<h4>Death Valley also<br> has many ghost towns, one<br> of them being the<br> Rhyolite, known as the<br> Queen City. Death Valley<br> is home to a great<br> diversity of wildlife.</h4>
+	
+
+<div class="LL">36.5323 <sup>o</sup>N 116.9325 <sup>o</sup>W</div>
+	<div class="Latitude">Latitude/Longitude</div>	
+ 	
+	
+
+<div class="Total">Total square mileage</div>
+	<div class="Mileage">5,270 mi</div>
+
+	 
+<div class="Established">Date Established</div>
+	<div class="Date">October 31, 1994</div>
+
+	
+<div class="Activities">Activities</div>	
+
+	
+	<div class="Scenedriving">Scene Driving, Hiking
+  	<span class="tooltiptext1">Want to visit Tatooine? Well than take a trip to Death Valley National Park! The famous movie series, Star Wars, has filmed in the park for Episode IV – A New Hope and Star Wars Episode VI – Return of the Jedi.</span>
+	</div>
+	<div class="starwars"><img src="header layers/SVG/starwars.svg" alt="starwars"></div>
+	
+	<div class="Biking">Biking and Mountain Biking
+  	<span class="tooltiptext2">Death Valley has more than 785 miles of roads including hundreds of miles suitable for Mountain Biking.</span>
+	</div>
+	<div class="biking"><img src="header layers/SVG/biking.svg" alt="biking"></div>	
+	
+	<div class="Tour">Tour Scotty's Castle
+  	<span class="tooltiptext3">Scotty's Castle is an elaborate, Spanish-style mansion built in the 1920s and '30s. Take a ranger-guided tour of the castle interior or the system of underground tunnels.</span>
+	</div>
+	<div class="castle"><img src="header layers/SVG/castle.svg" alt="castle"></div>
+	
+	<div class="Birdwatching">Birdwatching
+  	<span class="tooltiptext4">Death Valley is one of the most impressive ornithological biomes in the National Park System. There are several factors that result in Death Valley’s high number of bird species. Migratory birds are channeled into these valleys and stop at its desert oases and mountains.</span>
+	</div>
+	<div class="birdwatching"><img src="header layers/SVG/birdwatching.svg" alt="birdwatching"></div>
+	
+	<div class="Backpacking">Backpacking
+  	<span class="tooltiptext5">Backpacking in Death Valley National can be challenging, but the opportunities for experiencing solitude, sweeping vistas, dark night skies and awesome geology abound within the three million acres of designated wilderness. There are few established trails in the park, but hikers can follow canyon bottoms, open desert washes, alluvial fans and abandoned dirt roads to get around.</span>
+	</div>
+	<div class="backpacking"><img src="header layers/SVG/backpacking.svg" alt="backpacking"></div>
+	
+	
+<div class="Check">Don't forget to check out these national parks too!</div>
+
+<a class="one" href="https://www.nps.gov/deva/index.htm" target="self">To learn more about Death Valley, click here</a>	
+	
+	
+<h6>Citation of sources</h6>	
+
+	
+<div class="leftcolumn">	
+<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="page1.html"><img src="https://vweiss4.github.io/DES350/poster-2.gif" width="100%"></a>';
+random_img[1] = '<a href="page2.html"><img src="https://avelaz36.github.io/DES350/np_poster.gif" width="100%"></a>';
+random_img[2] = '<a href="page3.html"><img src="https://lpark25.github.io/DES350/Comp-1_1.gif" width="100%"></a>';
+
+document.write(random_img[random_number]);
+</script></div>	
+	
+	
+<div class="midcolumn">	
+<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="page1.html"><img src="https://zali30.github.io/DES350/web/photo/posterM.gif" width="100%"></a>';
+random_img[1] = '<a href="page2.html"><img src="https://k11borrero.github.io/DES350/finalparksposter.gif" width="100%"></a>';
+random_img[2] = '<a href="page3.html"><img src="https://anhvyb.github.io/DES350/posterRRRb%203_1.gif" width="100%"></a>';
+
+document.write(random_img[random_number]);
+</script></div>		
+
+	
+<div class="rightcolumn">	
+<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="page1.html"><img src="https://dmejia11.github.io/DES350/Mejia_rocky.gif" width="100%"></a>';
+random_img[1] = '<a href="page2.html"><img src="https://tmfriese.github.io/DES350/Comp-1_4.gif" width="100%"></a>';
+random_img[2] = '<a href="page3.html"><img src="https://agarc88.github.io/DES350/Mesa-Verde-Poster-1_1.gif" width="100%"></a>';
+
+document.write(random_img[random_number]);
+</script></div>	
+	
+	
+<!-- javascript -->
+    <script type="text/javascript" src="rellax.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script> 	
+
+</body>
+</html>
