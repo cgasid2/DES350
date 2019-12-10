@@ -1,0 +1,1095 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content= "width=device-width">
+<title>Death Valley</title>
+</head>
+	
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700&display=swap" rel="stylesheet">	
+	
+<style>
+	
+	body{
+		margin-left:10%;
+		margin-top:5%;
+		font-family:"Oswald";
+		background-color:#7F95A4;}
+	
+		.clouds{
+			position:absolute;
+			left:0%;
+			top:0%;
+			width:100%;}
+	
+		.valley{
+			position:absolute;
+			left:0%;
+			top:70%;
+			width:100%;}
+	
+		.sun{
+			position:absolute;
+			left:43%;
+			top:71%;
+			width:8%;}
+	
+		.mountain1{
+			position:absolute;
+			left:50.98%;
+			top:84.9%;
+			width:15.6%;}
+	
+		.mountain2{
+			position:absolute;
+			left:36.3%;
+			top:91.7%;
+			width:21.4%;}
+	
+		.mountain3{
+			position:absolute;
+			left:29.4%;
+			top:92.5%;
+			width:14.6%;}
+	
+		.mountain4{
+			position:absolute;
+			left:9.9%;
+			top:78%;
+			width:17%;}
+	
+		.cracks{
+			position:absolute;
+			left:0%;
+			top:116%;
+			width:100%;}
+	
+		.visit{
+			position:absolute;
+			left:10%;
+			top:10%;
+			font-size:170px;}
+	
+		.death{
+			position:absolute;
+			left:10%;
+			top:37%;
+			font-size:193px;
+			font-weight:700;}
+	
+		.state{
+			position:absolute;
+			left:70%;
+			top:46.8%;
+			font-size:60px;
+			font-weight:700;}
+	
+		.park{
+			position:absolute;
+			left:10%;
+			top:62%;
+			font-size:110px;
+			font-weight:400;}
+
+	h1{
+		position:absolute;
+		width:20%;
+		font-size:40px;
+		margin-top:90%;
+		margin-left:30.6%;
+		font-weight:400;
+		color:white;
+		line-height:2;}
+	
+	h2{
+		position:absolute;
+		width:20%;
+		font-size:25px;
+		margin-top:142%;
+		left:75%;
+		font-weight:400;
+		color:white;
+		line-height:2;}
+	
+	h3{
+		position:absolute;
+		width:20%;
+		font-size:25px;
+		margin-top:200%;
+		font-weight:400;
+		color:white;
+		line-height:2;}
+	
+	
+	h4{
+		position:absolute;
+		width:20%;
+		font-size:25px;
+		margin-top:257.4%;
+		left:75%;
+		font-weight:400;
+		color:white;
+		line-height:2;}
+	
+	
+	.LL{
+		font-size:135px;
+		color:#42312D;
+		position:absolute;
+		width:41%;
+		margin-top:140%;
+		line-height:1.1;
+		font-weight:700;}
+	
+	.Latitude{
+			font-size:35px;
+			color:#42312D;
+			position:absolute;
+			width:30%;
+			margin-top:162%;
+			margin-left:21.5%;
+			line-height:1.1;
+			font-weight:700;}
+
+	
+	.Mileage{
+		font-size:135px;
+		position:absolute;
+		color:#42312D;
+		width:30%;
+		margin-top:199.4%;
+		left:62.4%;
+		line-height:1.1;
+		font-weight:700;}
+	
+		.Total{
+			font-size:35px;
+			color:#42312D;
+			position:absolute;
+			width:20%;
+			margin-left:60.1%;
+			margin-top:209.5%;
+			line-height:1.1;
+			font-weight:700;}
+	
+	
+	
+	.Date{
+		font-size:135px;
+		color:#42312D;
+		position:absolute;
+		width:50%;
+		margin-top:256.9%;
+		line-height:1.1;
+		font-weight:700;}
+	
+		.Established{
+			font-size:35px;
+			color:#42312D;
+			position:absolute;
+			width:30%;
+			margin-top:274.7%;
+			margin-left:21.5%;
+			line-height:1.1;
+			font-weight:700;}		
+	
+	
+	.Activities{
+		font-size:135px;
+		position:absolute;
+		width:30%;
+		margin-top:314.7%;
+		line-height:1.1;
+		font-weight:700;
+		color:#4A5B84;}
+	
+	
+	.Scenedriving{
+		position:absolute;
+		width:55%;
+		font-size:30px;
+		margin-top:329.3%;
+		margin-left:21.5%;
+		font-weight:700;
+		color:#4A5B84;
+		border-bottom:7px solid #D7B291;
+		line-height:2;}
+	
+			.text1{
+  				width:71%;
+				margin-top:5%;
+				margin-left:30.6%;
+  				color: #4A5B84;
+				font-size:25px;
+				font-weight:400;
+  				text-align: left;
+  				position:absolute;}
+
+			.starwars{
+				position:absolute;
+				left:10%;
+				margin-top:330%;
+				width:20%;}
+	
+	
+	.Biking{
+		position:absolute;
+		width:55%;
+		font-size:30px;
+		margin-top:354.4%;
+		margin-left:21.5%;
+		font-weight:700;
+		color:#4A5B84;
+		border-bottom:7px solid #F9AE42;
+		line-height:2;}
+	
+			.text2{
+				width:71%;
+				margin-top:5%;
+				margin-left:30.6%;
+  				color: #4A5B84;
+				font-size:25px;
+				font-weight:400;
+  				text-align: left;
+  				position:absolute;}
+	
+			.biking{
+				position:absolute;
+				left:10%;
+				margin-top:355%;
+				width:20%;}
+	
+	
+	.Birdwatching{
+		position:absolute;
+		width:55%;
+		font-size:30px;
+		margin-top:379.3%;
+		margin-left:21.5%;
+		font-weight:700;
+		color:#4A5B84;
+		border-bottom:7px solid #607392;
+		line-height:2;}
+	
+			.text4{
+  				width:71%;
+				margin-top:5%;
+				margin-left:30.6%;
+  				color:#4A5B84;
+				font-size:25px;
+				font-weight:400;
+  				text-align:left;
+  				position:absolute;}
+	
+			.birdwatching{
+				position:absolute;
+				left:10%;
+				margin-top:380%;
+				width:20%;}
+	
+	.Tour{
+		position:absolute;
+		width:55%;
+		font-size:30px;
+		margin-top:404.4%;
+		margin-left:21.5%;
+		font-weight:700;
+		color:#4A5B84;
+		border-bottom:7px solid #795A46;
+		line-height:2;}
+	
+			.text3{
+  				width:70%;
+				margin-top:5%;
+				margin-left:30.6%;
+  				color:#4A5B84;
+				font-size:25px;
+				font-weight:400;
+  				text-align:left;
+  				position:absolute;}
+	
+			.castle{
+				position:absolute;
+				left:10%;
+				margin-top:405%;
+				width:20%;}
+	
+	.Backpacking{
+		position:absolute;
+		width:55%;
+		font-size:30px;
+		margin-top:429.3%;
+		margin-left:21.5%;
+		font-weight:700;
+		color:#4A5B84;
+		border-bottom:7px solid #42312D;
+		line-height:2;}
+	
+			.text5{
+				width:70%;
+				margin-top:5%;
+				margin-left:30.6%;
+  				color:#4A5B84;
+				font-size:25px;
+				font-weight:400;
+  				text-align:left;
+  				position:absolute;}
+	
+			.backpacking{
+				position:absolute;
+				left:10%;
+				margin-top:430%;
+				width:20%;}
+	
+	.Check{
+		font-size:70px;
+		color:#42312D;
+		position:absolute;
+		text-align: center;
+		margin-top:489%;
+		line-height:1.1;
+		font-weight:400;}
+	
+	.leftcolumn{
+		display:inline-block;
+		float:left;
+		width:23%;
+		margin-top:500%;
+		padding-right:2%;
+		padding-bottom:2%;
+		overflow:hidden;
+		position: absolute;}
+	
+	.midcolumn{
+		display:inline-block;
+		float:left;
+		width:23%;
+		margin-top:500%;
+		padding-right:2%;
+		padding-bottom:2%;
+		margin-left: 28.5%;
+		position: absolute;}
+	
+	.rightcolumn{
+		display:inline-block;
+		float:left;
+		width:23%;
+		margin-top:500%;
+		margin-left:57%;
+		padding-bottom:2%;
+		padding-right:2%;
+		position: absolute;}
+	
+	.one{
+		position:absolute;
+		font-size:25px;
+		margin-top:482%;
+		color:#42312D;
+		text-decoration:none;
+		font-weight:700;}
+			a:hover{color:#795A46;}
+	
+	.ug1{
+		position:absolute;
+		margin-top:175%;
+		width:90%;}
+	
+	.ug2{
+		position:absolute;
+		margin-top:257%;
+		margin-left:-10%;
+		width:90%;}
+	
+	.ug3{
+		position:absolute;
+		margin-top:317%;
+		margin-left:20%;
+		width:60%;}
+	
+		
+	
+	@media only screen and (max-width:800px){
+		
+	body{
+		margin-left:5%;
+		margin-top:5%;
+		font-family:"Oswald";
+		background-color:#7F95A4;}
+		
+		.clouds{
+			width:100%;}
+	
+		.valley{
+			top:31%;}
+	
+		.sun{
+			top:33%;}
+	
+		.mountain1{
+			top:37.7%;}
+	
+		.mountain2{
+			top:41%;}
+	
+		.mountain3{
+			top:41.5%;}
+	
+		.mountain4{
+			top:34.8%;}
+	
+		.cracks{
+			top:48%;}
+	
+		.visit{
+			left:5%;
+			top:3%;
+			font-size:80px;}
+	
+		.death{
+			left:5%;
+			top:15%;
+			font-size:100px;}
+	
+		.state{
+			top:20%;
+			font-size:35px;}
+	
+		.park{
+			left:5.5%;
+			top:27.5%;
+			font-size:40px;}
+
+	h1{
+		width:35%;
+		font-size:35px;
+		margin-top:108%;
+		margin-left:33.3%;
+		line-height:1.5;}
+	
+	h2{
+		width:35%;
+		margin-top:210%;
+		left:38.3%;
+		line-height:1.5;}
+	
+	h3{
+		width:35%;
+		margin-top:285%;
+		left:38.3%;
+		line-height:1.5;}
+	
+	
+	h4{
+		width:35%;
+		margin-top:390%;
+		left:38.3%;
+		line-height:1.5;}
+	
+	
+	.LL{
+		font-size:100px;
+		width:65%;
+		margin-top:172.6%;
+		line-height:1;}
+	
+	.Latitude{
+			font-size:30px;
+			margin-top:197.7%;
+			margin-left:65%;}
+
+	
+	.Mileage{
+		font-size:100px;
+		width:65%;
+		margin-top:265%;
+		margin-left:-57.7%;}
+	
+		.Total{
+			font-size:30px;
+			width:30%;
+			margin-left:65%;;
+			margin-top:273.7%;}
+	
+	
+	.Date{
+		font-size:100px;
+		width:55%;
+		margin-top:356%;
+		line-height:1.2;}
+	
+		.Established{
+			font-size:30px;
+			width:30%;
+			margin-top:380.6%;
+			margin-left:65%;}		
+	
+	
+	.Activities{
+		font-size:100px;
+		margin-top:435%;}
+	
+	
+	.Scenedriving{
+		width:65%;
+		margin-top:454.6%;
+		margin-left:21.5%;}
+	
+			.text1{
+  				width:83%;
+				margin-top:5%;
+				margin-left:18.3%;}
+
+			.starwars{
+				left:5%;
+				margin-top:457%;
+				width:20%;}
+	
+	
+	.Biking{
+		width:65%;
+		margin-top:505%;
+		margin-left:21.5%;}
+	
+			.text2{
+				width:83%;
+				margin-top:5%;
+				margin-left:18.3%;}
+	
+			.biking{
+				left:5%;
+				margin-top:507.3%;
+				width:20%;}
+	
+	
+	.Birdwatching{
+		width:65%;
+		margin-top:549%;
+		margin-left:21.5%;}
+	
+			.text4{
+  				width:83%;
+				margin-top:5%;
+				margin-left:18.3%;}
+	
+			.birdwatching{
+				left:5%;
+				margin-top:551.4%;
+				width:20%;}
+	
+	.Tour{
+		width:65%;
+		margin-top:612%;
+		margin-left:21.5%;}
+	
+			.text3{
+  				width:83%;
+				margin-top:5%;
+				margin-left:18.3%;}
+	
+			.castle{
+				left:5%;
+				margin-top:614.4%;
+				width:20%;}
+	
+	.Backpacking{
+		width:65%;
+		margin-top:662.3%;
+		margin-left:21.5%;}
+	
+			.text5{
+				width:83%;
+				margin-top:5%;
+				margin-left:18.3%;}
+	
+			.backpacking{
+				left:5%;
+				margin-top:664.6%;
+				width:20%;}
+	
+	.Check{
+		width:27%;
+		font-size:40px;
+		margin-top:743.5%;
+		margin-left:0%;
+		text-align:left;
+		line-height:1.3}
+	
+	.leftcolumn{
+		display:inline-block;
+		float:left;
+		width:40%;
+		margin-top:745%;
+		margin-left:33.4%;
+		padding-right:2%;
+		position: absolute;}
+	
+	.midcolumn{
+		display:inline-block;
+		float:left;
+		width:40%;
+		margin-top:810%;
+		margin-left:33.4%;
+		padding-right:2%;
+		position: absolute;}
+	
+	.rightcolumn{
+		display:inline-block;
+		float:left;
+		width:40%;
+		margin-top:875%;
+		margin-left:33.4%;
+		padding-right:2%;
+		padding-bottom:2%;
+		position: absolute;}
+	
+	.one{
+		margin-top:725%;}
+	
+	.ug1{
+		position:absolute;
+		margin-top:245%;
+		width:90%;}
+	
+	.ug2{
+		position:absolute;
+		margin-top:375%;
+		margin-left:-10%;
+		width:90%;}
+	
+	.ug3{
+		position:absolute;
+		margin-top:440%;
+		margin-left:20%;
+		width:60%;}
+		
+	}
+	
+	@media only screen and (max-width:375px){
+			
+	body{
+		margin-left:5%;
+		margin-top:3%;
+		font-family:"Oswald";
+		background-color:#7F95A4;}
+		
+		.clouds{
+			width:100%;}
+	
+		.valley{
+			top:20%;}
+	
+		.sun{
+			top:22.2%;}
+	
+		.mountain1{
+			top:24.7%;}
+	
+		.mountain2{
+			top:26.7%;}
+	
+		.mountain3{
+			top:26.8%;}
+	
+		.mountain4{
+			top:22.6%;}
+	
+		.cracks{
+			top:31%;}
+	
+		.visit{
+			left:5%;
+			top:3%;
+			font-size:25px;}
+	
+		.death{
+			left:5%;
+			top:9%;
+			font-size:40px;}
+	
+		.state{
+			top:11.7%;
+			margin-left:-9%;
+			font-size:17px;}
+	
+		.park{
+			left:5.5%;
+			top:16.5%;
+			font-size:20px;}
+
+	h1{
+		width:40%;
+		font-size:24px;
+		margin-top:108%;
+		margin-left:28.2%;
+		line-height:1.5;}
+	
+	h2{
+		width:55%;
+		font-size:20px;
+		margin-top:240%;
+		left:33.1%;}
+	
+	h3{
+		width:55%;
+		font-size:20px;
+		margin-top:338.6%;
+		left:33.1%;}
+	
+	
+	h4{
+		width:55%;
+		font-size:20px;
+		margin-top:497%;
+		left:33.1%;}
+	
+	
+	.LL{
+		font-size:40px;
+		width:65%;
+		margin-top:200%;
+		margin-left:5%;
+		line-height:1;}
+	
+	.Latitude{
+			font-size:20px;
+			margin-top:228%;
+			margin-left:5%;}
+
+	
+	.Mileage{
+		font-size:40px;
+		width:65%;
+		margin-top:312%;
+		margin-left:-52.3%;}
+	
+		.Total{
+			font-size:20px;
+			width:50%;
+			margin-left:5%;;
+			margin-top:325.9%;}
+	
+	
+	.Date{
+		font-size:40px;
+		width:65%;
+		margin-top:457.5%;
+		margin-left:5%;}
+	
+		.Established{
+			font-size:20px;
+			width:55%;
+			margin-top:485%;
+			margin-left:5%;}		
+	
+	
+	.Activities{
+		font-size:40px;
+		margin-top:584%;
+		margin-left:5%;}
+	
+	
+	.Scenedriving{
+		font-size:20px;
+		width:68%;
+		margin-top:603%;
+		margin-left:21.5%;
+		border-bottom:4px solid #D7B291;
+		line-height:1.5;}
+	
+			.text1{
+				font-size:20px;
+  				width:90%;
+				margin-top:5%;
+				margin-left:10%;
+				line-height:1.2;}
+
+			.starwars{
+				left:5%;
+				margin-top:605%;
+				width:20%;}
+	
+	
+	.Biking{
+		width:68%;
+		font-size:20px;
+		margin-top:658.7%;
+		margin-left:21.5%;
+		border-bottom:4px solid #F9AE42;
+		line-height:1.5;}
+	
+			.text2{
+				font-size:20px;
+				width:90%;
+				margin-top:5%;
+				margin-left:10%;
+				line-height:1.2;}
+	
+			.biking{
+				left:5%;
+				margin-top:661%;
+				width:20%;}
+	
+	
+	.Birdwatching{
+		width:68%;
+		font-size:20px;
+		margin-top:702%;
+		margin-left:21.5%;
+		border-bottom:4px solid #607392;
+		line-height:1.5;}
+	
+			.text4{
+  				font-size:20px;
+				width:90%;
+				margin-top:5%;
+				margin-left:10%;
+				line-height:1.2;}
+	
+			.birdwatching{
+				left:5%;
+				margin-top:704.2%;
+				width:20%;}
+	
+	.Tour{
+		width:68%;
+		font-size:20px;
+		margin-top:777.5%;
+		margin-left:21.5%;
+		border-bottom:4px solid #795A46;
+		line-height:1.5;}
+	
+			.text3{
+  				font-size:20px;
+				width:90%;
+				margin-top:5%;
+				margin-left:10%;
+				line-height:1.2;}
+	
+			.castle{
+				left:5%;
+				margin-top:779.6%;
+				width:20%;}
+	
+	.Backpacking{
+		width:68%;
+		font-size:20px;
+		margin-top:834%;
+		margin-left:21.5%;
+		border-bottom:4px solid #42312D;
+		line-height:1.5;}
+	
+			.text5{
+				font-size:20px;
+				width:90%;
+				margin-top:5%;
+				margin-left:10%;
+				line-height:1.2;}
+	
+			.backpacking{
+				left:5%;
+				margin-top:836%;
+				width:20%;}
+	
+	.Check{
+		width:90%;
+		font-size:18px;
+		margin-top:945%;
+		left:5%;
+		text-align:center;
+		line-height:1.3}
+	
+	.leftcolumn{
+		display:inline-block;
+		float:left;
+		width:75%;
+		margin-top:960%;
+		margin-left:7%;
+		padding-right:2%;
+		position: absolute;}
+	
+	.midcolumn{
+		display:inline-block;
+		float:left;
+		width:75%;
+		margin-top:1085%;
+		margin-left:7%;
+		padding-right:2%;
+		position: absolute;}
+	
+	.rightcolumn{
+		display:inline-block;
+		float:left;
+		width:75%;
+		margin-top:1210%;
+		margin-left:7%;
+		padding-right:2%;
+		padding-bottom:8%;
+		position: absolute;}
+	
+	.one{
+		margin-top:915%;
+		margin-left:28.3%;
+		font-size:16px;
+		width:60%;}
+	
+	.ug1{
+		position:absolute;
+		margin-top:310%;
+		width:90%;}
+	
+	.ug2{
+		position:absolute;
+		margin-top:495%;
+		margin-left:-10%;
+		width:90%;}
+	
+	.ug3{
+		position:absolute;
+		margin-top:640%;
+		margin-left:20%;
+		width:60%;}
+	}
+	
+</style>	
+	
+
+
+<body>
+<div class="clouds rellax" data-rellax-speed="9"><img src="clouds.svg" alt="clouds"></div>		
+
+<div class="mountain3 rellax" data-rellax-speed="0"><img src="mountain3.svg" alt="mountain3"></div>	
+	
+<div class="mountain2 rellax" data-rellax-speed="0"><img src="mountain2.svg" alt="mountain2"></div>
+	
+<div class="mountain1 rellax" data-rellax-speed="0"><img src="mountain1.svg" alt="mountain1"></div>
+	
+<div class="park">National Park</div>
+	
+<div class="mountain4 rellax" data-rellax-speed="0"><img src="mountain4.svg" alt="mountain4"></div>
+	
+<div class="valley rellax" data-rellax-speed="7"><img src="valley.svg" alt="valley"></div>
+
+<div class="sun rellax" data-rellax-speed="3"><img src="sun.svg" alt="sun"></div>
+	
+<div class="cracks rellax" data-rellax-speed="2"><img src="cracks.svg" alt="cracks"></div>
+
+<div class="ug1 rellax" data-rellax-speed="2"><img src="ug1.svg" alt="ug1"></div>	
+	
+<div class="ug2 rellax" data-rellax-speed="2"><img src="ug2.svg" alt="ug2"></div>
+	
+<div class="ug3 rellax" data-rellax-speed="2"><img src="ug3.svg" alt="ug3"></div>	
+	
+<div class="visit">Visit</div>
+<div class="death">Death Valley</div>
+<div class="state">CA, NV</div>	
+	
+<h1> Death Valley is the hottest, driest and lowest national park.</h1>
+	 
+<h2>It is a land of extremes, yet each has its own contrast.</h2>
+	
+<h3>From peaks frosted with winter snow to rare rainstorms bringing fields of wildflowers.<br> From tiny fish to places of refuge for wildlife, Death Valley is home to a great diversity of wildlife. </h3>
+	
+<h4>Death Valley also has many ghost towns, one of them being the Rhyolite, known as the Queen City. </h4>
+	
+
+<div class="LL">36.5323 <sup>o</sup>N 116.9325 <sup>o</sup>W</div>
+	<div class="Latitude">Latitude/Longitude</div>	
+ 	
+	
+
+<div class="Total">Total square mileage</div>
+	<div class="Mileage">5,270 mi</div>
+
+	 
+<div class="Established">Date Established</div>
+	<div class="Date">October 31, 1994</div>
+
+	
+<div class="Activities">Activities</div>	
+
+	
+	<div class="Scenedriving">Scene Driving, Hiking
+  	<div class="text1">Want to visit Tatooine? The famous movie series, Star Wars, has filmed in the park for Episode IV – A New Hope and Star Wars Episode VI – Return of the Jedi.</div>
+	</div>
+	<div class="starwars"><img src="starwars.svg" alt="starwars"></div>
+	
+	<div class="Biking">Biking and Mountain Biking
+  	<div class="text2">Death Valley has more than 785 miles of roads including hundreds of miles suitable for mountain biking.</div>
+	</div>
+	<div class="biking"><img src="biking.svg" alt="biking"></div>	
+	
+	<div class="Tour">Tour Scotty's Castle
+  	<div class="text3">Scotty's Castle is an elaborate, Spanish-style mansion built in the 1920s and '30s. Take a ranger-guided tour of the castle interior or the system of underground tunnels.</div>
+	</div>
+	<div class="castle"><img src="castle.svg" alt="castle"></div>
+	
+	<div class="Birdwatching">Birdwatching
+  	<div class="text4">Death Valley is one of the most impressive ornithological biomes in the National Park System. Migratory birds are channeled into these valleys and stop at its desert oases and mountains, resulting in Death Valley’s high number of bird species.</div>
+	</div>
+	<div class="birdwatching"><img src="birdwatching.svg" alt="birdwatching"></div>
+	
+	<div class="Backpacking">Backpacking
+  	<div class="text5">There are few established trails in the park, but hikers can follow canyon bottoms, open desert washes, alluvial fans and abandoned dirt roads to get around, as well as the opportunity to experience dark night skies, sweeping vistas and awesome geology.</div>
+	</div>
+	<div class="backpacking"><img src="backpacking.svg" alt="backpacking"></div>
+	
+	
+<div class="Check">Don't forget to check out these national parks too!</div>
+
+<a class="one" href="https://www.nps.gov/deva/index.htm" target="self">To learn more about Death Valley, click here</a>	
+		
+<div class="line1"></div>
+	
+<div class="leftcolumn">	
+<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="https://vweiss4.github.io/DES350/3grid.html"><img src="https://vweiss4.github.io/DES350/poster-2.gif" width="100%"></a>';
+random_img[1] = '<a href="https://avelaz36.github.io/DES350/smoky_mountains.html"><img src="https://avelaz36.github.io/DES350/np_poster.gif" width="100%"></a>';
+random_img[2] = '<a href="https://lpark25.github.io/DES350/Coded%20Poster.html"><img src="https://lpark25.github.io/DES350/Comp-1_1.gif" width="100%"></a>';
+
+document.write(random_img[random_number]);
+</script></div>	
+	
+	
+<div class="midcolumn">	
+<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="https://zali30.github.io/DES350/np/nps.html"><img src="https://zali30.github.io/DES350/web/photo/posterM.gif" width="100%"></a>';
+random_img[1] = '<a href="https://k11borrero.github.io/DES350/svgwebsite-5.html"><img src="https://k11borrero.github.io/DES350/finalparksposter.gif" width="100%"></a>';
+random_img[2] = '<a href="https://anhvyb.github.io/DES350/GCNP.html"><img src="https://anhvyb.github.io/DES350/posterRRRb%203_1.gif" width="100%"></a>';
+
+document.write(random_img[random_number]);
+</script></div>		
+
+	
+<div class="rightcolumn">	
+<script type="text/javascript">
+var total_images = 3;
+var random_number = Math.floor((Math.random()*total_images));
+var random_img = new Array();
+random_img[0] = '<a href="https://dmejia11.github.io/DES350/rockyweb_.html"><img src="https://dmejia11.github.io/DES350/Mejia_rocky.gif" width="100%"></a>';
+random_img[1] = '<a href="https://tmfriese.github.io/DES350/Denaliwebs3.html"><img src="https://tmfriese.github.io/DES350/Comp-1_4.gif" width="100%"></a>';
+random_img[2] = '<a href="https://agarc88.github.io/DES350/MesaVerde_Website.html"><img src="https://agarc88.github.io/DES350/Mesa-Verde-Poster-1_1.gif" width="100%"></a>';
+
+document.write(random_img[random_number]);
+</script></div>	
+	
+	
+<!-- javascript -->
+    <script type="text/javascript" src="rellax.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script> 	
+
+</body>
+</html>
